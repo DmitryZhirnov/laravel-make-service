@@ -1,0 +1,31 @@
+{
+  "name": "dmitryzhirnov/laravel-make-service",
+  "description": "Make service class in Services folder by make:service command laravel",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dmitry Zhirnov",
+      "email": "dmzhirnov@mail.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/console": "^5.3",
+    "illuminate/support": "^5.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "DmitryZhirnov\\ServiceMake\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "DmitryZhirnov\\ServiceMake\\ServiceMakeCommandServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

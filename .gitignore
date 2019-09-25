@@ -1,0 +1,3 @@
+/vendor
+composer.lock
+laravel-make-service.code-workspace
