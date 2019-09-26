@@ -4,6 +4,10 @@ namespace DmitryZhirnov\ServiceMake;
 
 use Illuminate\Console\GeneratorCommand;
 
+/**
+ * генератор 
+ */
+
 class ServiceMakeCommand extends GeneratorCommand 
 {
     protected $name = "make:service";
