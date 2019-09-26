@@ -19,12 +19,6 @@
       "DmitryZhirnov\\ServiceMake\\": "src/"
     }
   },
-  "repositories": [
-    {
-      "type": "github",
-      "url": "https://github.com/DmitryZhirnov/laravel-make-service"
-    }
-  ],
   "extra": {
     "laravel": {
       "providers": [
