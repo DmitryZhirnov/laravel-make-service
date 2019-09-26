@@ -14,6 +14,12 @@
     "illuminate/console": "^5.3",
     "illuminate/support": "^5.3"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/DmitryZhirnov/laravel-make-service"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "DmitryZhirnov\\ServiceMake\\": "src/"
